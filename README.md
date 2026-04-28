@@ -11,7 +11,7 @@ PredictionEmotioninMusic/
 │   ├── Project_Report.pdf   # Full written report
 │   └── Presentation.pptx    # Project presentation slides
 ├── src/
-│   └── code.R               # Complete analysis script (data prep → modelling)
+│   └── code.R               # Complete analysis script 
 └── README.md
 ```
 
