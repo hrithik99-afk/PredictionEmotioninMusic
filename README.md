@@ -41,11 +41,12 @@ The script runs end to end in five stages:
 4. Modelling
 Each target (valence, energy) is modelled independently within each group using a 75/25 stratified train/test split with z-score normalisation. Five model families are evaluated:
 
- Linear Regression 
- ElasticNet 
- KNearest Neighbours
- Random Forest
- XGBoost
+- Linear Regression 
+- ElasticNet 
+- KNearest Neighbours
+- Random Forest
+- XGBoost
+- Stacked Ensemble
 
 5. Evaluation
-Models are compared on RMSE, MAE, and R² across all group × target combinations.
+Models are compared on RMSE, MAE, and R² across all group and target combinations.
