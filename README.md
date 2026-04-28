@@ -3,16 +3,17 @@ Predicting Emotion in Music
 A statistical and machine learning project that predicts two emotional dimensions of music valence and energy from Spotify audio features, 
 using the Russell (1980) Circumplex Model of Affect as a theoretical framework.
 
-Repository Structure
-PredictionEmotioninMusic
+```
+PredictionEmotioninMusic/
 ├── data/
-│   └── dataset.csv          # Spotify track level audio features (source data)
+│   └── dataset.csv          # Spotify track-level audio features (source data)
 ├── docs/
 │   ├── Project_Report.pdf   # Full written report
 │   └── Presentation.pptx    # Project presentation slides
 ├── src/
-│   └── code.R               # Complete analysis script
+│   └── code.R               # Complete analysis script (data prep → modelling)
 └── README.md
+```
 
 Pipeline (`src/code.R`)
 
