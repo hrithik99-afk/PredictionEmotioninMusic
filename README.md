@@ -41,12 +41,11 @@ The script runs end to end in five stages:
 4. Modelling
 Each target (valence, energy) is modelled independently within each group using a 75/25 stratified train/test split with z-score normalisation. Five model families are evaluated:
 
- Model | Details 
- Linear Regression (OLS)** | Five nested predictor sets (M1–M5), from single-feature to full audio + metadata |
- ElasticNet** | 5-fold CV over α ∈ {0.0, 0.1, …, 1.0}; λ selected by `lambda.min` |
- KNearest Neighbours** | `kknn`, k tuned via cross-validation |
- Random Forest** | `randomForest`, 500 trees; feature importance extracted |
- XGBoost** | `xgboost`, early stopping on 5-fold CV |
+ Linear Regression 
+ ElasticNet 
+ KNearest Neighbours
+ Random Forest
+ XGBoost
 
 5. Evaluation
 Models are compared on RMSE, MAE, and R² across all group × target combinations.
