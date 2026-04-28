@@ -20,7 +20,7 @@ Pipeline (`src/code.R`)
 The script runs end to end in five stages:
 
 1. Data Loading & Preparation
-- Reads the CSV, cleans column names, and encodes categorical variables (`key`, `mode`, `time_signature`, `explicit`).
+- Reads the CSV, cleans column names, and encodes categorical variables.
 - Subsets the data into the three genre groups (G1, G2, G3).
 
 2. Descriptive Statistics
