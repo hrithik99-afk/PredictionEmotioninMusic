@@ -1,4 +1,4 @@
-Predicting Emotion in Music
+Predicting Emotion in Music (Valence and Energy)
 
 A statistical and machine learning project that predicts two emotional dimensions of music valence and energy from Spotify audio features, 
 using the Russell (1980) Circumplex Model of Affect as a theoretical framework.
