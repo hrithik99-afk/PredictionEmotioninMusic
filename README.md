@@ -8,7 +8,7 @@ PredictionEmotioninMusic/
 ├── data/
 │   └── dataset.csv          # Spotify track-level audio features (source data)
 ├── docs/
-│   ├── Project Report.pdf   # Full written report
+│   ├── Final Report.pdf   # Full written report
 │   └── Presentation.pptx    # Project presentation slides
 ├── src/
 │   └── code.R               # Complete analysis script 
