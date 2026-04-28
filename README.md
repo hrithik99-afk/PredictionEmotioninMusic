@@ -39,7 +39,7 @@ The script runs end to end in five stages:
 - Within group genre-level violin plots.
 
 4. Modelling
-Each target (valence, energy) is modelled independently within each group using a 75/25 stratified train/test split with z-score normalisation. Five model families are evaluated:
+Each target (valence, energy) is modelled independently within each group using a 75/25 stratified train/test split with 5 fold Cross Validation. Five model families are evaluated:
 
 - Linear Regression 
 - ElasticNet 
